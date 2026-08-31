@@ -14,4 +14,4 @@ export const socialLinks = {
 }
 
 // export const resumeUrl = './resume/Shubham-Awasthi-Resume.pdf'
-export const resumeUrl = '${import.meta.env.BASE_URL}resume/Shubham-Awasthi-Resume.pdf'
+export const resumeUrl = `${import.meta.env.BASE_URL}resume/Shubham-Awasthi-Resume.pdf`
