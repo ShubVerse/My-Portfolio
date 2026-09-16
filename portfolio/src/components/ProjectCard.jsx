@@ -16,7 +16,7 @@ export default function ProjectCard({ project, reverse, onOpenCaseStudy }) {
       <div className="corner-brackets group relative aspect-[4/3] rounded-2xl border border-border bg-surface overflow-hidden">
         {project.image ? (
           <img
-            src="/Brain-Brust.png"
+            src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`}
             alt={`${project.name} preview`}
             loading="lazy"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
